@@ -1,0 +1,60 @@
+    selected_page = option_menu(
+        menu_title='aaaa',
+        options=PAGES,
+        icons=["box-arrow-in-right", "house", "newspaper", "bar-chart", "diagram-3"],
+        orientation="vertical",
+    )
+
+可以将下面的styles放在selected_page作为参数，美化菜单
+
+styles={
+    "container": {"background-color": "#1f1f1f"},
+    "icon": {"color": "#4cc9f0", "font-size": "18px"},
+    "nav-link": {
+        "font-size": "16px",
+        "color": "#e0e0e0",
+        "padding": "10px 8px",
+        "border-radius": "8px",
+        "hover-color": "#4cc9f0"
+    },
+    "nav-link-selected": {
+        "background-color": "#4cc9f0",
+        "color": "black",
+        "font-weight": "700",
+    },
+}
+
+
+
+
+styles={
+    "container": {"background-color": "#ffffff"},
+    "icon": {"color": "#007bff"},
+    "nav-link": {
+        "font-size": "17px",
+        "color": "#333",
+    },
+    "nav-link-selected": {
+        "background-color": "#007bff",
+        "color": "white",
+        "font-weight": "bold",
+    },
+}
+
+
+
+
+styles={
+    "container": {"background-color": "#fdf6e3"},
+    "icon": {"color": "#8c2736"},
+    "nav-link": {
+        "font-size": "17px",
+        "color": "#4a0d0a",
+        "font-family": "KaiTi, serif",
+    },
+    "nav-link-selected": {
+        "background-color": "#8c2736",
+        "color": "white",
+        "font-weight": "bold",
+    },
+}
