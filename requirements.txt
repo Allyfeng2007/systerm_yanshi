@@ -1,8 +1,6 @@
 streamlit
 jieba
 sqlite3
-streamlit_option_menu
 uuid
 os
 pyecharts
-streamlit_echarts
